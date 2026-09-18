@@ -151,6 +151,11 @@ ForensiX-Pro/
 * **Cryptographic Hashing**: SHA-256 checksums are calculated using standard chunked streams at the exact moment of acquisition.
 * **Audit Trail**: Every evidence item includes acquisition timestamps, source host metadata, file size in bytes, and chain of custody documentation.
 
+## Author & Maintainer
+
+* **Kunal Choudhary** &mdash; *Creator & Lead Developer*
+  * GitHub: [@Kunal-CodeLab](https://github.com/Kunal-CodeLab)
+
 ---
 
 ## License
@@ -159,4 +164,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-**ForensiX Pro** &mdash; *Engineered for precision digital forensics & incident response.*
+**ForensiX Pro** &mdash; *Engineered for precision digital forensics & incident response by Kunal Choudhary.*
