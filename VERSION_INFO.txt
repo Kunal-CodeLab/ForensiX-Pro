@@ -1,0 +1,28 @@
+ForensiX Pro - Digital Forensics Suite
+Version: 2.0.0 Pro
+Release Date: September 2026
+Platform: Windows (with Cross-Platform Extensibility)
+GUI Framework: PyQt5 (High-DPI Optimized Light Theme)
+Language: Python 3.8+
+
+ENTERPRISE-GRADE DIGITAL FORENSICS INVESTIGATION PLATFORM
+=========================================================
+
+CORE CAPABILITIES:
+- Binary $I/$R Windows Recycle Bin Parser & Direct File Restoration
+- Multi-Profile Browser History Extractor (Chrome, Edge, Firefox, Brave, Opera)
+- High-Performance Windows Event Log Parser (Application, System, Security)
+- Unified Multi-Source Forensic Timeline Generator (0% Drop Universal Date Parser)
+- Cryptographic Evidence Collector (SHA-256 Chain of Custody & Packaging)
+- Dual Reporting Engine: Interactive Web-Responsive HTML & Structured CSV Exports
+- Ultra-Low CPU and RAM Footprint with Asynchronous Background QThreads
+
+SYSTEM REQUIREMENTS:
+- Operating System: Windows 10 / Windows 11 (Windows 7+ supported)
+- Runtime: Python 3.8 or higher
+- Memory: 2GB RAM minimum (4GB+ recommended)
+- Storage: 100MB free disk space for runtime and exports
+- Privileges: Administrator recommended for Event Logs and System Artifacts
+
+VERIFICATION & TESTING:
+Run `python test_forensic_tool.py` to execute the full automated test suite.

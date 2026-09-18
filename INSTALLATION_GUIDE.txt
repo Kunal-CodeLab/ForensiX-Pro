@@ -1,0 +1,80 @@
+# ForensiX Pro - Installation & Quick Start Guide
+
+A professional-grade suite for recovering deleted files, analyzing event and browser logs, generating correlated timelines, collecting cryptographic evidence, and producing court-ready forensic reports.
+
+---
+
+## Quick Installation (One Click Setup)
+
+### Recommended for Windows Users
+1. Clone or extract the repository folder
+2. Double-click **`one_click_setup.bat`**
+3. The setup script will:
+   - Verify Python 3.8+ installation
+   - Install required libraries (`PyQt5`, `pandas`, `psutil`)
+   - Launch the ForensiX Pro GUI (`launch_gui.py`)
+
+---
+
+## Manual Installation (Advanced Users)
+
+1. Open PowerShell or Command Prompt in the repository folder:
+   ```cmd
+   pip install -r requirements.txt
+   ```
+2. Launch the application:
+   ```cmd
+   python launch_gui.py
+   ```
+
+---
+
+## Verification Test Suite
+To validate all modules and algorithms:
+```cmd
+python test_forensic_tool.py
+```
+
+---
+
+## System Requirements
+- Operating System: Windows 10 / Windows 11 (Windows 7+ supported)
+- Python Version: Python 3.8 or higher
+- Privileges: Administrator rights recommended for Windows Event Log extraction
+- Memory: 2GB+ RAM
+- Storage: 100MB+ free disk space
+
+---
+
+## Core Modules
+- **FileRecoveryEngine**: Windows $I/$R binary Recycle Bin parser and file restoration
+- **LogAnalyzer**: Windows Event Logs (.evtx) and Multi-Profile Browser History (Chrome, Edge, Firefox, Brave, Opera)
+- **TimelineCreator**: Chronological event correlation with zero-drop date normalization
+- **EvidenceCollector**: SHA-256 chain of custody tracking and ZIP/folder packaging
+- **ReportGenerator**: Web-responsive HTML reports and structured RFC-4180 CSV exports
+
+---
+
+## Legal & Security Compliance
+- Chunked SHA-256 cryptographic hashing
+- Non-destructive, read-only system artifact queries
+- Professional audit trail and chain of custody documentation
+- Court-ready report templates
+
+---
+
+## Troubleshooting
+
+### Administrator Privileges
+- If Windows Event Logs (Security) cannot be accessed, right-click `launch_gui.bat` and select **"Run as administrator"**.
+
+### Browser History Locked
+- ForensiX Pro uses non-locking read-only shadow buffers, but for complete live cache flushing, closing browser instances before scanning is recommended.
+
+---
+
+## Version Info
+- Version: 2.0.0 Pro
+- Release Date: September 2026
+- Platform: Windows 10/11
+- GUI: PyQt5 (High-DPI Light Theme)
